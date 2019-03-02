@@ -1,0 +1,10 @@
+<script>
+var year = prompt ("введите год");
+console.log(new Date(year,1+1,0).getDate());
+
+if ((new Date(year,1+1,0).getDate())>27 && (new Date(year,1+1,0).getDate())<29){
+alert ("365 дней");}
+if ((new Date(year,1+1,0).getDate())>28 && (new Date(year,1+1,0).getDate())<30){
+alert ("366 дней");}
+
+</script>
